@@ -4,10 +4,22 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-family: monospace;
+}
+
+#notes {
+    font-family: monospace;
+}
+
 #cmd_bar {
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
     height: 4em;
+}
+
+.timestamp {
+    color: #aaa;
 }
