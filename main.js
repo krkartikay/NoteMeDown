@@ -5,7 +5,8 @@ function CreateNewNote() {
     cmd_bar.val("")
     // now we gotta show it
     var notes = $("#notes")
-    var new_note = `<li>${note}</li>`
+    var timestamp = moment().format("MMM Do h:mma")
+    var new_note = `<li><span class="timestamp">${timestamp}</span> ${note}</li>`
     notes.append(new_note)
 }
 
